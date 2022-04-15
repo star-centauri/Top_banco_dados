@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<carrinho_compra xmlns:h="http://www.w3.org/TR/html4/" xmlns:f="https://www.w3schools.com/furniture">
+    <h:itens>
+        <item id="1" tag="japonesa">
+            <nome>Yakisoba</nome>
+            <descricao>Uma delecioso Yakisoba misto de frango, carne e linquiça</descricao>
+            <quantidade>2</quantidade>
+            <valor>RS 40.00</valor>
+        </item>
+        <item id="2" tag="italiana">
+            <nome>Pizza Supreme Calabresa</nome>
+            <descricao>Pizza tamanho família (30 cm) sabor supreme calabresa (molho, tomate, catupiry, calabresa e queijo)</descricao>
+            <quantidade>1</quantidade>
+            <valor>RS 70.00</valor>
+        </item>
+        <item id="3" tag="bebida">
+            <nome>Pepsi de 2 litros</nome>
+            <descricao>Uma pepsi geladinha de 2 litros para dá aquela refrescada</descricao>
+            <quantidade>1</quantidade>
+            <valor>RS 10.00</valor>
+        </item>
+        <item id="4" tag="comida">
+            <nome>Faça sua Marmita</nome>
+            <descricao>Selecione 5 opções para adicionara sua marmita</descricao>
+            <quantidade>1</quantidade>
+            <valor>RS 30.00</valor>
+            <f:itens>
+                <opcao>Arroz</opcao>
+                <opcao>Feijão</opcao>
+                <opcao>Batata Frita</opcao>
+                <opcao>Frango Parmesiana</opcao>
+                <opcao>Macarrão</opcao>
+            </f:itens>
+        </item>
+    </h:itens>
+    <cupom>2022TOP</cupom>
+    <quantidade_itens>5</quantidade_itens>
+    <valor_total>R$ 140.00</valor_total>
+</carrinho_compra>
